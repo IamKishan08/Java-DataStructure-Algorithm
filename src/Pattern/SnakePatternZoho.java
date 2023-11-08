@@ -1,8 +1,14 @@
 package Pattern;
 
+import java.util.Scanner;
+
 public class SnakePatternZoho {
     public static void main(String[] args) {
-        int n =4;
+
+        Scanner scanner = new Scanner(System.in);
+
+
+        int n = scanner.nextInt();
         int[][] arr = new int[n][n];
         int num = 1;
 
