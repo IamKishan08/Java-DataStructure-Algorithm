@@ -9,7 +9,7 @@ public class SnakePatternZoho {
 
         for (int i = 0; i < n; i++) {
 
-            if (n % 2 == 0){
+            if(n % 2 == 0){
                 for (int j = 0; j < n; j++) {
                    arr[i][j] = num++;
                 }
