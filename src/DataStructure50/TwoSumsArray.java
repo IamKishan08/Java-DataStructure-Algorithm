@@ -33,7 +33,7 @@ public class TwoSumsArray {
         }
         return new int[]{-1};
     }
-
+    /*________________________________________________________________________________*/
     public  static int[] twoSumMap(int[] arr,int target) {
 
         Map<Integer,Integer> map = new HashMap<>();
